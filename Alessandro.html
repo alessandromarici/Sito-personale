@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible content="IE-edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+    <title>Portfolio Alessandro Marici</title>
+    <meta name="description" content="Portfolio curriculare con progetti, lavori e skills di Alessandro Marici"
+    <!--stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--fav-icon-->
+    <link rel="shortcut icon" href="images/Am-logo-fav.png" alt="logo in lettere am"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!--scroll-animation-files-->
+  <link rel="stylesheet" href="css/aos.css"/>
+  <script type="text/javascript" src="js/aos.js"></script>
+  </head>
+  <body>
+    <!--navigation-bar---------------------------->
+       <nav class="navigation">
+           <!--logo-->
+           <a href="#" class="logo">
+               <img src="images/Am-logo.png" alt="logo in lettere am"/>
+           </a>
+           <!--menu-btn----->
+           <input type="checkbox" class="menu-btn" id="menu-btn">
+           <label for="menu-btn" class="menu-icon">
+               <span class="nav-icon"></span>
+           </label>
+           <!--menu--->
+           <ul class="menu">
+               <li><a href="#main">HOME</a></li>
+               <li><a href="#introduction">ABOUT</a></li>
+               <li><a href="#skills">SKILLS</a></li>
+               <li><a href="#portfolio">PORTFOLIO</a></li>
+               <li><a href="#get-in-touch">CONTATTI</a></li>
+           </ul>
+           <!--menu-social-links---->
+           <div class="menu-social">
+               <!--linkedin-->
+               <a target="_blank" href="https://www.linkedin.com/in/alessandromarici/">
+                   <i class="fab fa-linkedin-in"></i>
+               </a>
+               <!--facebook-->
+               <a target="_blank" href="https://www.facebook.com/alessandro.marici">
+                   <i class="fab fa-facebook-f"></i>
+               </a>
+               <!--instagram-->
+               <a target=_"blank" href="https://www.instagram.com/alessandromarici/">
+                   <i class="fab fa-instagram"></i>
+               </a>
+            </div>
+       </nav>
+       <!--main-section---------------------->
+       <section id="main">
+           <!--text-------------->
+           <div class="main-text">
+               <h1>Ciao, sono <span class="ruolo"">Alessandro</span></h1> <h1>un appassionato del mondo digital</h1> 
+               <p>La mia formazione è in continuo progresso dopo aver concluso il mio percorso di studi su <a target="_blank" href="https://www.start2impact.it/" class="start2impact">Start2Impact</a>.</p>
+               <!--btns---------->
+               <div class="main-btns">
+                   <a target="_blank" href="C:\Users\Alessandro\OneDrive\Desktop\Portfolio Definitivo\cv\CV Marici.pdf" class="download-cv-btn">Download CV</a>
+                   <a href="#introduction" class="hire-me-btn">Conosciamoci</a>
+               </div>
+           </div>
+           <!--model-------------->
+           <div class="model">
+               <img src="images/foto-main.png." alt="Foto intera di Alessadro Marici"/>
+           </div>
+       </section>
+       <!--introduction-------------------------------->
+              <section id="introduction">
+              <!--heading---->
+              <div class="intro-heading" data-aos="fade">
+                  <h2>Introduzione</h2>
+                  <p>Ciao, mi chiamo Alessandro Marici e vi racconto in breve la mia storia nel mondo lavorativo:</p>
+                  <p>Nel 2007 mi diplomo come Geometra e decido di entrare subito nel mondo del lavoro. Negli anni cambio diverse aziende e ruoli che mi hanno permesso
+                     di conoscere più a fondo me stesso e il mercato. Il ruolo che più mi ha influenzato è stato quello di sarto nel mondo del lusso e della sartoria uomo.
+                     Ho potuto così svillupare la mia <i>creatività</i>, <i>l'attenzione per dettagli</i> e la <i>precisione</i>.</p>
+                  
+                  <p>Venendo a contatto sempre più spesso con strumenti digitali il mio interesse per quel <b>mondo</b> è via via aumentato. Video e letture sul tema 
+                     hanno accompagnato questa mia curiosità. Questo mi ha spinto, a inizio 2020, a formarmi
+                     grazie ai corsi di Google: Crescere in digitale e Google digital training.
+                  <p>A settembre del 2020 sono passato alla pratica frequentando i corsi di <i>Start2Impact</i>.
+                     Formazione e pratica mi hanno permesso di lavorare su progetti concreti costruendo il mio portfolio personale.
+                  
+              </div>
+              <!--scrool-down-button-->
+              <a href="#skills">
+               <div class="scroll-down"></div>
+              </a>
+              <!--place-your-self-introduction-here-->
+              <div class="io">
+               <img src="images/io.jpeg." alt="foto primo piano Alessadro Marici" title="Alessandro Marici Serata VBC"/>
+              </div>
+          </section>
+       <!--skills---------------------------->
+       <section id="skills">
+           <!--heading----->
+           <div class="skill-heading" data-aos="fade" >
+              <h2>My Skills</h2>
+               <h3>Soft Skills</h3>
+               <p>Precisione, Creatività, Problem Solving, People Oriented</p>
+               <h3>Hard Skills</h3>
+               <p>Di seguito i progressi attuali delle competenze base acquisite con i progetti creati per Start2Impact</p>
+            </div>
+            <!--skills-box-container--->
+            <div class="s-box-container">
+                <!--skill-box-->
+                <div class="skill-box" data-aos="fade-up">
+                    <!--box-icon---->
+                    <div class="s-box-icon">
+                        <i class="fas fa-pen"></i>
+                    </div>
+                    <!--box-text---->
+                    <div class="s-box-text">
+                        <h4>Copywriting (Scrittura)</h4>
+                        <p>Acquisizione competenze su i metodi di scrittura per articoli di blog e Ads.</p>
+                      </br/>
+                        <!--progress-line---->
+                        <div class="progress-line pen"><span></span></div>
+                    </div>
+                </div>
+                <!--skill-box-->
+                <div class="skill-box" data-aos="fade-up">
+                    <!--box-icon---->
+                    <div class="s-box-icon">
+                        <i class="far fa-thumbs-up"></i>
+                    </div>
+                    <!--box-text---->
+                    <div class="s-box-text">
+                        <h4>Social Media (Facebook-Instagram-Linkedin per il personal branding)</h4>
+                        <p>Competenze su crescita organica e tramite Advertising nei social network.</p>
+                      </br/>
+                        <!--progress-line---->
+                        <div class="progress-line thumbs-up"><span></span></div>
+                    </div>
+                </div>
+                <!--skill-box-->
+                <div class="skill-box" data-aos="fade-up">
+                    <!--box-icon---->
+                    <div class="s-box-icon">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <!--box-text---->
+                    <div class="s-box-text">
+                        <h4>Facebook Ads (Facebook Ads manager)</h4>
+                        <p>Competenze base e avanzate sulla creazione tecnica e creativa di Advertising.</p>
+                      </br/>
+                        <!--progress-line---->
+                        <div class="progress-line facebook"><span></span></div>
+                    </div>
+                </div>
+                <!--skill-box-->
+                <div class="skill-box" data-aos="fade-up">
+                    <!--box-icon---->
+                    <div class="s-box-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <!--box-text---->
+                    <div class="s-box-text">
+                        <h4>SEO (Search Engine Optimization)</h4>
+                        <p>Competenze sull'ottimizzazione di un sito per il posizionamento organico sui motori di ricerca.</p>
+                      </br/>
+                        <!--progress-line---->
+                        <div class="progress-line search"><span></span></div>
+                    </div>
+                </div>
+                <!--skill-box-->
+                <div class="skill-box" data-aos="fade-up">
+                    <!--box-icon---->
+                    <div class="s-box-icon">
+                      <i class="fab fa-google"></i>
+                    </div>
+                    <!--box-text---->
+                    <div class="s-box-text">
+                      <h4>Google Ads (Rete ricerca, Shopping, Display & Discovery)</h4>
+                      <p>Competenze sull'ottimizzazione di un sito per il posizionamento organico sui motori di ricerca.</p>
+                  </br/>
+                    <!--progress-line---->
+                    <div class="progress-line google"><span></span></div>
+                 </div>
+               </div>
+               <!--skill-box-->
+               <div class="skill-box" data-aos="fade-up">
+                   <!--box-icon---->
+                   <div class="s-box-icon">
+                    <i class="fas fa-envelope-open-text"></i>
+                   </div>
+                   <!--box-text---->
+                   <div class="s-box-text">
+                     <h4>Direct (Email Marketing, Funnel Marketing, Automazioni e Bot)</h4>
+                     <p>Creazione di Newsletter, E-mail e automazioni per engagement, nurturing e retargeting.</p>
+                   </br/>
+                   <!--progress-line---->
+                   <div class="progress-line envelope-open-text"><span></span></div>
+                </div>
+              </div>
+              <!--skill-box-->
+              <div class="skill-box" data-aos="fade-up">
+                  <!--box-icon---->
+                  <div class="s-box-icon">
+                   <i class="fas fa-chart-line"></i>
+                  </div>
+                  <!--box-text---->
+                  <div class="s-box-text">
+                    <h4>Analisi Dati (Certificazioni Google Analytics, Data studio e Excel)</h4>
+                    <p>Competenze base nel monitorare e analizzare i dati acquisiti.</p>
+                  </br/>
+                  <!--progress-line---->
+                  <div class="progress-line chart-line"><span></span></div>
+               </div>
+              </div>
+                <!--skill-box-->
+                <div class="skill-box" data-aos="fade-up" >
+                    <!--box-icon---->
+                    <div class="s-box-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <!--box-text---->
+                    <div class="s-box-text">
+                        <h4>Hyper Text Markup Language(HTML)</h4>
+                        <p>Lo scheletro di uesto sito è sviluppato da me in HTML.</p>
+                      </br/>
+                        <!--progress-line---->
+                        <div class="progress-line html"><span></span></div>
+                    </div>
+                </div>
+                <!--skill-box-->
+                <div class="skill-box" data-aos="fade-up">
+                    <!--box-icon---->
+                    <div class="s-box-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <!--box-text---->
+                    <div class="s-box-text">
+                        <h4>Cascading Style Sheets(CSS)</h4>
+                        <p>Il design di questo sito è progettato da me in CSS e JS.</p>
+                      </br/>
+                        <!--progress-line---->
+                        <div class="progress-line css"><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+       <!--portfolio----------------------------------->
+   <section id="portfolio">
+       <!--heading----->
+       <div class="portfolio-heading" data-aos="fade-up">
+           <h2>Portfolio</h2>
+           <p>Di seguito i miei progetti creati. La maggior parte dei brand citati sono di mia invenzione.</p>
+        </div>
+       <!--services-box-container----->
+       <div class="portfolio-box-container">
+           <!--portfolio-box--------->
+           <div class="portfolio-box-1" data-aos="fade-up">
+             <!--heading--->
+             <h4>Progetto Scrittura</h4>
+             <!--details-->
+             <p>Scrittura di un articolo per un blog dedicato al mondo del lavoro:
+             esperienze personali, consigli e futuro.</p>
+               <a target="_blank" href="https://drive.google.com/drive/folders/1RtBSmFu8UmWrhbhBgCVOKYsw4GbjAEus?usp=drive_link"><img src="images/copy.jpg" alt="Copertina Progetto Scrittura"/></a>
+           </div>
+           <!--portfolio-box--------->
+           <div class="portfolio-box-2" data-aos="fade-up">
+               <!--heading--->
+               <h4>Progetti Social Media</h4>
+               <!--details-->
+               <p>1. Campagna social su Facebook & Instagram su un brand di mia invenzione.<br>
+                  2. Linkedin per il mio personal branding.</p>
+               <a target="_blank" href="https://drive.google.com/drive/folders/1DFwgPm7Zan3L5q8dXWarHfHSkpE0HxtH?usp=drive_link"><img src="images/social-media-2.jpg" alt="Copertina Progetto Social Media"/></a>
+           </div>
+           <!--portfolio-box--------->
+           <div class="portfolio-box-3" data-aos="fade-up">
+               <!--heading--->
+               <h4>Progetti Facebook Ads</h4>
+               <!--details-->
+               <p>1. Costruzione strategia pubblicitaria Facebook Ads base<br>
+                  2. Costruzione strategia pubblicitaria Facebook Ads advance.</p><br>
+               <a target="_blank" href="https://drive.google.com/drive/folders/1C3TKTJ9DConghl91ji-WnOBurGbAba_-?usp=drive_link"><img src="images/facebook-ads.png" alt="Copertina progetto facebook ads"/></a>
+           </div>
+           <!--portfolio-box--------->
+           <div class="portfolio-box-4" data-aos="fade-up">
+               <!--heading--->
+               <h4>SEO</h4>
+               <!--details-->
+               <p>1. Scrittura articolo per Blog ottimizzato per la SEO.<br>
+                  2. SEO advance creazione e ottimizzazione di un sito.<br>
+                  3. SEO Audit con analisi di un sito esistente e possibili soluzioni.</p>
+               <a target="_blank" href="https://drive.google.com/drive/folders/1Y4SUzyuJoZPgFlBt1HPnXoBeNyF0UocN?usp=drive_link"><img src="images/seo.jpg" alt="Copertina Progetto SEO"/></a>
+           </div>
+           <!--portofolio-box--------->
+           <div class="portfolio-box-5" data-aos="fade-up">
+               <!--heading--->
+               <h4>Google Ads</h4>
+               <!--details-->
+               <p>1. Costruzione strategia pubblicitaria campagna per la rete di ricerca.<br>
+                  2. Costruzione strategia pubblicitaria campagna Shopping con Merchant Center.<br>
+                  3. Costruzione strategia pubblicitaria campagna Display & Discovery.</p>
+               <a target="_blank" href="https://drive.google.com/drive/folders/1a4PuFMT5ddcR28wCWvMFQ7A99e0iN-qd?usp=drive_link"><img src="images/google-ads.jpg" alt="Copertina Progetto Google Ads"/></a>
+           </div>
+           <!--portofolio-box--------->
+           <div class="portfolio-box-6" data-aos="fade-up">
+               <!--heading--->
+               <h4>Direct</h4>
+               <!--details-->
+               <p>1. Creazione di una Newsletter.<br>
+                  2. Funnel Marketing: costruzione di una strategia con l'utilizzo di Funnelytics.<br>
+                  3. Automazioni per il marketing: costruzionedi una strategia con l'utilizzo di Manychat.</p>
+               <a target="_blank" href="https://drive.google.com/drive/folders/15myZZ2RMb-HUmGLjtoFAPIma3aE7dfLW?usp=drive_link"><img src="images/direct.jpg" alt="Copertina Progetto Direct Marketing"/></a>
+           </div>
+           <!--portfolio-box--------->
+           <div class="portfolio-box-7" data-aos="fade-up">
+               <!--heading--->
+               <h4>Shopify</h4>
+               <!--details-->
+               <p>1. Progetto Shopify Base.<br>
+                  2. Progetto Shopify Advance.<br>                  </p>
+               <a target="_blank" href="https://drive.google.com/drive/folders/1ik7NrnDM00sfq0PMu8KUwfHt5mTDTbam?usp=drive_links"><img src="images/analisi-dati.jpg" alt="Copertina Progetto Analisi Dati"/></a>
+           </div>
+           <!--portfolio-box--------->
+           <div class="portfolio-box-8" data-aos="fade-up">
+               <!--heading--->
+               <h4>HTML & CSS</h4>
+               <!--details-->
+               <p>Il sito è stato interamente svillupato da me tramite l'utilizzo dei linguaggi HTML, CSS, JS.</p>
+               <a target="_blank" ><img src="images/code.jpg" alt="Copertina Progetto HTML & CSS"/></a>
+           </div>
+       </div>
+   </section>
+
+   <!--get-in-touch------------------>
+     <section id="get-in-touch" data-aos="fade-up">
+         <span>Non ti ho ancora convinto? Contattami</span>
+         <!--contatti-->
+         <div class="contatti">
+           <span class="email">
+            Invia Email: <a href="mailto:alessandromarici@gmail.com">alessandromarici@gmail.com</a></span>
+            <br>
+           <span class="telefono">
+            Chiamami al: <a href="tel:00393393035716">+393393035716</a></span>
+         </div>
+       </div>
+     </section>
+     <!--contact--------------->
+     <section id="contact">
+         <!--form----------->
+         <form data-aos="fade-up">
+             <!--full-name---->
+             <input type="text" name="fullname" placeholder="Full Name" required>
+             <!--email-------->
+             <input type="email" name="email" placeholder="Example@gmail.com" required>
+             <!--write-something-->
+             <textarea name="message" placeholder="Write Something...." required></textarea>
+             <!--send-btn---->
+             <input type="submit" value="Send">
+         </form>
+     </section>
+     <!--footer------------------->
+     <footer>
+       <!--copyright-->
+       <span class="copyright">Copyright 2021 - Alessandro Marici</span>
+     </footer>
+
+     <!--script-->
+     <script>
+       AOS.init();
+     </script>
+  </body>
+</html>
